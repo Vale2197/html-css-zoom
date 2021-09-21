@@ -13,6 +13,9 @@
     position: relative;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 /* / utility */
 
 /************
@@ -121,6 +124,7 @@
     flex-wrap: wrap;
     flex-grow: 2;
     justify-content: center;
+    margin: 2rem;
 }
 
 #schermata .videoSingolo {
@@ -151,4 +155,64 @@
 
   /************
   / SEZIONE VIDEO SCHERMATA
+ *********** */
+
+
+ 
+  /************
+  SEZIONE OPZIONI
+ *********** */
+#opzioni {
+    background-color: #222326;
+    color: white;
+}
+
+#opzioni .container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#opzioni .opVideo {
+    text-align: center;
+    align-items: baseline;
+    padding: 0.5rem;
+}
+
+#opzioni .fa-chevron-up {
+    font-size: 1rem
+}
+
+#opzioni i {
+    font-size: 1.5rem;
+}
+
+#opzioni .opVideo div, .opVideo i {
+    padding-right: 0.5rem;
+}
+
+/* /OPZIONI VIDEO */
+#opzioni .opGeneral div {
+    margin-right: 2rem;
+}
+
+.opGeneral {
+    text-align: center;
+    align-items: baseline;
+}
+
+.opGeneral .fa-chevron-up {
+    font-size: 1rem;
+    margin-right: 1.5rem;
+}
+/* / OPZIONI GENERALI */
+
+#opzioni .end {
+    padding: 2rem;
+    background-color: #454748;
+    color: #FB5751;
+    font-weight: bold;
+}
+
+  /************
+  / SEZIONE OPZIONI
  *********** */
