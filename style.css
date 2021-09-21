@@ -12,6 +12,7 @@
 .absCont {
     position: relative;
 }
+
 /* / utility */
 
 /************
@@ -63,3 +64,61 @@
      margin-left: 0.2rem;
  }
  /* / ZOOM ID */
+
+ /************
+   /  HEADER
+ *********** */
+
+ /************
+    SEZIONE VIDEO SCHERMATA
+ *********** */
+
+ /* SPEAKER VIEW */
+ #schermata .speakerView {
+    text-align: right;
+    padding: 0.5rem;
+ }
+
+ .speakerView p {
+     display: inline-block;
+     background-color: #3B3B3B;
+     padding: 0.3rem 0.5rem;
+     border-radius: 0.5rem;
+ }
+ 
+ .speakerView .expand {
+    background-color: #3B3B3B;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.5rem;
+ }
+
+ .speakerView .speakerIcon {
+     vertical-align: middle;
+     margin-right: 0.3rem;
+ }
+ /* / SPEAKER VIEW */
+
+ 
+ #schermata {
+     background-color: black;
+     color: white;
+ }
+#schermata .videoSingolo .nome {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    color: white;
+    background-color: #00000075;
+    padding: 4px 0.5rem;
+} 
+
+#schermata .videoContainer {
+    flex-wrap: wrap;
+}
+
+#schermata .videoSingolo {
+    margin: 0.25rem;
+}
+  /************
+  / SEZIONE VIDEO SCHERMATA
+ *********** */
