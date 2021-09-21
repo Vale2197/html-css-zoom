@@ -98,11 +98,16 @@
  }
  /* / SPEAKER VIEW */
 
- 
+ /* INTERFACCIA VIDEO*/
  #schermata {
      background-color: black;
      color: white;
  }
+
+ #schermata .container {
+     justify-content: space-between;
+ }
+
 #schermata .videoSingolo .nome {
     position: absolute;
     left: 0;
@@ -114,11 +119,36 @@
 
 #schermata .videoContainer {
     flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: center;
 }
 
 #schermata .videoSingolo {
     margin: 0.25rem;
 }
+
+#schermata .arrowLeft {
+    order: -1;
+}
+
+#schermata .arrowLeft, .arrowRight {
+    align-self: center;
+    margin: 1rem;
+    font-size: 4rem;
+    flex-grow: 2;
+}
+
+#schermata .arrowRight {
+    color: #39BBFC;
+}
+
+#schermata .arrowLeft p, .arrowRight p {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+ /* / INTERFACCIA VIDEO*/
+
   /************
   / SEZIONE VIDEO SCHERMATA
  *********** */
